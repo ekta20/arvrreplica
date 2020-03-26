@@ -1,0 +1,151 @@
+div.home{
+  background-image:url("https://arvrworkshop-iiitn.github.io/img/bg-img/1.jpg");
+  background-size:1400px 780px;margin:-15px -20px -20px -20px;
+  background-repeat:no-repeat;
+   object-fit:cover;
+}
+h1.welte{font-size:75px;
+text-align:right;
+direction:rtl;
+margin-left:900px;
+margin-top:130px;
+margin-right:200px;
+color:white;
+font-family: 'Poppins', sans-serif;
+animation-name:second;
+animation-duration:1.5s;
+animation-timing-function:ease;
+animation-fill-mode: both;
+}
+
+h1.weltee1{font-size:20px;
+text-align:center;
+
+direction:rtl;
+margin-left:890px;
+margin-top:-45px;
+margin-right:200px;
+color:white;
+font-family: 'Poppins', sans-serif;
+background-color:rgb(40,40,40);
+padding-left: -70px;
+animation-name:five;
+animation-duration:0.8s;
+animation-timing-function:ease;
+animation-fill-mode: both;
+animation-delay: 1.6s;
+}
+@keyframes second{from{margin-top:150px;} to {margin-top:130px;}
+from{opacity:0;} to{opacity:1;}}
+@keyframes five{from{margin-top:-30px;} to {margin-top:-45px;}from{opacity:0;} to{opacity:1;}}
+@keyframes six{from{margin-top:10px;} to {margin-top:5px;}
+from{opacity:0;} to{opacity:1;}}
+
+h1.weltee2{font-size:20px;
+text-align:center;
+direction:rtl;
+margin-left:550px;
+margin-top:5px;
+margin-right:200px;
+
+color:white;
+font-family: 'Poppins', sans-serif;
+background-color:rgb(40,40,40);
+padding-left: -70px;
+animation-name:six;
+animation-duration: 0.8s
+animation-timing-function:ease;
+animation-fill-mode: both;
+animation-delay: 1.4s;
+}
+
+ul {list-style-type:none;
+  width:800px;
+  margin-left:500px;
+  margin-top:-10px;
+overflow:hidden;
+padding:4px;
+padding-top:8px;
+padding-bottom:8px;
+}
+ul{position:sticky;}
+li{float:left;}
+div.one{width:100%;background-color:rgba(0,0,0,0.8);margin-top:-5px;
+  position:sticky;
+top:0;}
+
+li a{text-decoration:none;
+  position:sticky;
+  top:0;
+  height:50px;
+display:block;
+font-family: sans-serif;
+margin-top:30px;
+padding:8px;
+text-align:center;
+font-size:18px;
+color:white;
+}
+li:hover a{color:#df42b1;}
+div.three {border:2px solid black;
+  border-radius:30px;
+  width:200px;
+  background:linear-gradient(to bottom right,rgb(230,0,173),rgb(124,0,252)),white;
+  background-size:200px 200px,0px 200px;
+  background-position:left,left;
+  background-repeat:no-repeat;
+font-size:18px;
+font-family:sans-serif;
+color:white;
+margin:auto;
+margin-top:20px;
+margin-left:40px;
+padding:30px;
+padding-top:10px;
+padding-bottom:15px;
+ width:140px
+
+}
+
+ div.three:hover{color:black;
+
+   background-size:0px 200px,200px 200px;
+   top:50%;
+   transition-duration:0.8s;
+   transition-delay:0.1s
+   transition-timing-function:ease;
+  }
+  span{font-size:25px;}
+  div.three:hover span{animation-name:example;animation-duration:0.8s;
+  animation-iteration-count:infinite;}
+@keyframes example{from{opacity:1;} to{opacity:0;}}
+div.four {border:2px solid black;
+  border-radius:30px;
+  width:180px;
+  background:linear-gradient(to bottom right,rgb(230,0,173),rgb(124,0,252)),white;
+  background-size:240px 240px,0px 240px;
+  background-position:left,left;
+  background-repeat:no-repeat;
+font-size:18px;
+font-family:sans-serif;
+color:white;
+margin:auto;
+margin-top:100px;
+margin-left:900px;
+padding:30px;
+padding-top:10px;
+padding-bottom:15px;
+}
+
+ div.four:hover{color:black;
+
+   background-size:0px 240px,240px 240px;
+   top:50%;
+   transition-duration:0.8s;
+   transition-delay:0.1s
+   transition-timing-function:ease;
+  }
+  span{font-size:25px;}
+  div.four:hover span{animation-name:example;animation-duration:0.8s;
+  animation-iteration-count:infinite;}
+@keyframes example{from{opacity:1;} to{opacity:0;}}
